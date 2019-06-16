@@ -2,9 +2,11 @@
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <MyNav></MyNav>
-    <BigSection></BigSection>
+    <!-- <MyNav></MyNav>
     <ShopList></ShopList>
+    <Comment></Comment> -->
+    <ShopPageTop></ShopPageTop>
+    <ShopPageDown></ShopPageDown>
   </div>
 </template>
 
@@ -12,7 +14,9 @@
 import HelloWorld from './components/HelloWorld.vue'
 import ShopList from './components/ShopList.vue'
 import MyNav from './components/MyNav.vue'
-import BigSection from './components/BigSection.vue'
+import Comment from './components/Comment.vue'
+import ShopPageTop from './components/ShopPageTop.vue'
+import ShopPageDown from './components/ShopPageDown.vue'
 
 export default {
   name: 'app',
@@ -20,7 +24,9 @@ export default {
     HelloWorld,
     ShopList,
     MyNav,
-    BigSection
+    Comment,
+    ShopPageTop,
+    ShopPageDown
   }
 }
 </script>
